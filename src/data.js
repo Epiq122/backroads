@@ -32,7 +32,7 @@ export const services = [
   },
 ];
 
-const tours = [
+export const tours = [
   {
     id: 1,
     img: './images/tour-1.jpeg',
@@ -46,11 +46,31 @@ const tours = [
   {
     id: 2,
     img: './images/tour-2.jpeg',
-    date: 'august 26th 2023',
-    title: 'tibet adventure',
+    date: 'october 1st 2023',
+    title: 'best of java',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam saepe sed recusandae exercitationem. Iste, iure! Nobis aperiam ullam facilis atque.',
-    country: 'china',
-    days: '6 days',
-    price: 'from $2100',
+    country: 'indonesia',
+    days: '11 days',
+    price: 'from $1400',
+  },
+  {
+    id: 3,
+    img: './images/tour-3.jpeg',
+    date: 'september 15th 2023',
+    title: 'explore hong kong',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam saepe sed recusandae exercitationem. Iste, iure! Nobis aperiam ullam facilis atque.',
+    country: 'hong kong',
+    days: '8 days',
+    price: 'from $5000',
+  },
+  {
+    id: 4,
+    img: './images/tour-4.jpeg',
+    date: 'december 25th 2023',
+    title: 'kenya highights',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam saepe sed recusandae exercitationem. Iste, iure! Nobis aperiam ullam facilis atque.',
+    country: 'keyna',
+    days: '20 days',
+    price: 'from $3300',
   },
 ];
